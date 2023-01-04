@@ -1,0 +1,13 @@
+name = "eemisc"
+uuid = "4bf63c90-59f1-4b0d-9378-8b8e14257e10"
+authors = ["Eric Ekholm"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
