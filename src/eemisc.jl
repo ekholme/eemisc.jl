@@ -1,5 +1,10 @@
 module eemisc
+# see https://medium.com/coffee-in-a-klein-bottle/creating-and-deploying-your-julia-package-documentation-1d09ddc90474
+#for more on documenting jl funcs
 
-# Write your package code here.
+#include other files
+include("random_string.jl")
 
+#export functions
+export random_string
 end

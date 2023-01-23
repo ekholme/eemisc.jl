@@ -12,3 +12,7 @@ Documentation for [eemisc](https://github.com/ekholme/eemisc.jl).
 ```@autodocs
 Modules = [eemisc]
 ```
+
+```@docs
+random_string(l::Int)
+```
