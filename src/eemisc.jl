@@ -4,7 +4,9 @@ module eemisc
 
 #include other files
 include("random_string.jl")
+include("pct_to_string.jl")
 
 #export functions
 export random_string
+export pct_to_string
 end
