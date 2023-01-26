@@ -5,8 +5,10 @@ module eemisc
 #include other files
 include("random_string.jl")
 include("pct_to_string.jl")
+include("notin.jl")
 
 #export functions
 export random_string
 export pct_to_string
+export notin
 end
